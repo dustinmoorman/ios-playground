@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ios-playground
 //
-//  Created by dumoorma on 6/11/20.
-//  Copyright © 2020 dumoorma. All rights reserved.
+//  Created by dumoorma@cisco.com on 6/11/20.
+//  Copyright © 2020 dumoorma@cisco.com. All rights reserved.
 //
 
 #import "AppDelegate.h"
