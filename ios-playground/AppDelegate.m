@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <ADEUMInstrumentation/ADEumInstrumentation.h>
 
 @interface AppDelegate ()
 
