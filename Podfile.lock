@@ -1,0 +1,16 @@
+PODS:
+  - AppDynamicsAgent (2020.3.0)
+
+DEPENDENCIES:
+  - AppDynamicsAgent
+
+SPEC REPOS:
+  trunk:
+    - AppDynamicsAgent
+
+SPEC CHECKSUMS:
+  AppDynamicsAgent: da9d2d6d69626f7b1df2a97b569c6a69f94f52b0
+
+PODFILE CHECKSUM: 23ab1210bec7d912e1d3f72990366caf8d209655
+
+COCOAPODS: 1.9.3

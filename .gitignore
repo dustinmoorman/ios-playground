@@ -1,0 +1,7 @@
+.DS_Store
+ios-playground/ADEUMInstrumentation.framework/
+DerivedData/
+build/
+ios-playground.xcworkspace/xcuserdata
+ios-playground.xcworkspace/xcshareddata
+Pods/
