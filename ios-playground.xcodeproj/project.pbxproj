@@ -176,6 +176,7 @@
 				778CD0032492F9D800613A53 /* Sources */,
 				778CD0042492F9D800613A53 /* Frameworks */,
 				778CD0052492F9D800613A53 /* Resources */,
+				778CD03F2493C5AF00613A53 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -360,6 +361,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		778CD03F2493C5AF00613A53 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export ADRUM_ACCOUNT_NAME=\"se_east_eum\"\n\nexport ADRUM_LICENSE_KEY=\"e65d0371-b41d-48aa-887c-1bf5ebed72b7\"\n\nexport ADRUM_EUM_PROCESSOR=\"https://api.eum-appdynamics.com\"\n\nSCRIPT=`/usr/bin/find \"${SRCROOT}\" -name xcode_build_dsym_upload.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -541,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = "ios-playground/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

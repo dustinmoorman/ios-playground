@@ -17,10 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [ADEumInstrumentation initWithKey: @"AD-AAB-AAX-ETJ"];
+    NSLog(@"Startup complete");
     // Override point for customization after application launch.
     return YES;
 }
-
 
 #pragma mark - UISceneSession lifecycle
 
